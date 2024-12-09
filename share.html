@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Flavor Fusion</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="container">
+        <h1><span class="highlight">Flavor Fusion</span>: Share Your Recipe</h1>
+        <p class="intro">Got a recipe that’s bursting with flavor? Share it with the world!</p>
+        <h2 class="section-heading">Share Your Recipes</h2>
+        <form class="recipe-form">
+            <div class="form-group">
+                <label for="full-name"><i class="icon">👤</i> Your Name</label>
+                <input type="text" id="full-name" name="full-name" placeholder="Enter your full name" required>
+            </div>
+            <div class="form-group">
+                <label for="email"><i class="icon">✉️</i> Email Address</label>
+                <input type="email" id="email" name="email" placeholder="Enter your email address" required>
+            </div>
+            <div class="form-group">
+                <label for="phone"><i class="icon">📞</i> Phone Number</label>
+                <input type="tel" id="phone" name="phone" placeholder="Enter your phone number" required>
+            </div>
+            <div class="form-group">
+                <label for="address"><i class="icon">📍</i> Address</label>
+                <textarea id="address" name="address" rows="3" placeholder="Enter your address (optional)"></textarea>
+            </div>
+            <div class="form-group">
+                <label for="recipe-name"><i class="icon">🍽️</i> Recipe Name</label>
+                <input type="text" id="recipe-name" name="recipe-name" placeholder="E.g., Grandma’s Secret Lasagna" required>
+            </div>
+            <div class="form-group">
+                <label for="category"><i class="icon">📂</i> Recipe Category</label>
+                <select id="category" name="category" required>
+                    <option value="" disabled selected>Select a category</option>
+                    <option value="appetizer">Appetizer</option>
+                    <option value="main-course">Main Course</option>
+                    <option value="dessert">Dessert</option>
+                    <option value="beverage">Beverage</option>
+                </select>
+            </div>
+            <div class="form-group">
+                <label for="ingredients"><i class="icon">🥕</i> Ingredients</label>
+                <textarea id="ingredients" name="ingredients" rows="5" placeholder="List ingredients, one per line" required></textarea>
+            </div>
+            <div class="form-group">
+                <label for="prep-time"><i class="icon">⏱️</i> Preparation Time (Minutes)</label>
+                <input type="number" id="prep-time" name="prep-time" placeholder="E.g., 30" min="1" required>
+            </div>
+            <div class="form-group">
+                <label for="servings"><i class="icon">🍴</i> Servings</label>
+                <input type="number" id="servings" name="servings" placeholder="E.g., 4" min="1" required>
+            </div>
+            <div class="form-group">
+                <label for="instructions"><i class="icon">📖</i> Instructions</label>
+                <textarea id="instructions" name="instructions" rows="6" placeholder="Step-by-step guide to your recipe" required></textarea>
+            </div>
+            <div class="form-group">
+                <label for="upload"><i class="icon">📷</i> Upload a Photo</label>
+                <input type="file" id="upload" name="upload" accept="image/*">
+            </div>
+            <button type="submit"><i class="icon">✅</i> Submit Recipe</button>
+        </form>
+    </div>
+</body>
+</html>

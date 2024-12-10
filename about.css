@@ -1,0 +1,236 @@
+@font-face {
+    font-family: "hell";
+    src: url(Helvetica.ttf);
+ }
+
+
+@font-face {
+   font-family: cond;
+   src: url(CoolveticaCondensedRg-Regular\ 400.ttf);
+
+}
+@font-face {
+   font-family: cool;
+   src: url(CoolveticaRg-Regular\ 400.ttf);
+}
+@font-face {
+   font-family: bag;
+   src: url(Bagek\ -\ Demo\ Version\ Regular\ 400.otf);
+}
+ *{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    list-style: none;
+    text-decoration: none;
+    scroll-padding-top: 2rem;
+    scroll-behavior: smooth;
+    font-family: hell;
+ }
+
+ :root{
+    --green:#3cb815;
+    --light-green:#c0eb7b;
+    --orange:#f75f1d;
+    --light-orange:#ff7e00;
+    --text-color:#1a2428;
+    --bg-color:#fff;
+ }
+ section{
+    padding: 4.5rem 0 1.5rem;
+ }
+ header{
+    position: fixed;
+    width: 100%;
+    top: 0;
+    right: 0;
+    z-index: 1000;
+    display: flex;
+    justify-content: space-between;
+    background: var(--bg-color);
+    box-shadow: 0 8px 11px rgb(14 55 54 /15%);
+    padding: 20px 100px;
+
+
+ }
+ .logo{
+    display: flex;
+    align-items: center;
+    font-size: 1.1rem;
+    font-weight: 600;
+    color:var(--text-color);
+    column-gap: 0.5rem;
+    font-family: bag;
+ }
+
+ .logo .bx{
+    font-size: 24px;
+    color:var(--orange);
+
+ }
+ .navbar{
+    display: flex;
+    column-gap: 0.5rem;
+
+
+ }
+ .navbar a{
+    font-size: 1rem;
+    font-weight: 500;
+    color: var(--text-color);
+    padding: 0.5rem 1rem;
+ }
+
+ .navbar a:hover, .navbar .About{
+    background-color: var(--green);
+    border-radius: 5rem;
+    color:var(--bg-color) ;
+    transition: background 0.5s ;
+ }
+ #menu-icon{
+    font-size: 24px;
+    cursor: pointer;
+    z-index: 10001;
+    display: none;
+ }
+/*final footer*/
+.final{
+    background: black;
+    color: #fff;
+    display: flex;
+    justify-content:space-between;
+    align-self: center;
+    margin-top: 5rem;
+    padding: 4rem;
+
+
+}
+.final div a{
+    font-family: river;
+    font-size: 1.2rem;
+    cursor: pointer;
+}
+.Copyright{
+    background-color: black;
+    color:#fff;
+    display: flex;
+    justify-content: center;
+    padding: 3px;
+    padding-bottom: 10px;
+    font-size: 12px;
+}
+
+
+.image-top{
+    width: 100vw;
+}
+
+.about{
+    max-height: 980px;
+    margin-left: auto;
+    margin-right: auto;
+    display: grid;
+    grid-template-columns: 21rem 30rem;
+    align-items: center;
+    gap: 10rem;
+    justify-content: center;
+    margin-top: 4rem;
+ }
+ .about span{
+    font-weight: 600;
+    text-transform: uppercase;
+    color: var(--green);
+    font-family: cond;
+    font-size: 20px;
+
+
+ }
+ .about p{
+    margin: 0.5rem 0 1rem;
+    font-family: hell;
+ }
+ .about img{
+    width: 27rem;
+    border-radius: 4rem;
+ }
+ .about-text{
+    margin-left:3rem;
+ }
+
+.container3{
+    max-height: 980px;
+    max-width: 980px;
+
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap:1.5rem;
+}
+.container3 span{
+    font-size: 3rem;
+    text-transform: uppercase;
+    color: var(--green);
+    font-family: cond;
+    font-size: 4rem;
+
+}
+.container3 p{
+    font-size: 2rem;
+    font-family: cool;
+    
+    
+    
+}
+
+
+.yours{
+    max-height: 980px;
+    
+    margin-left: auto;
+    margin-right: auto;
+    display: grid;
+    grid-template-columns: 30rem 21rem;
+    align-items: center;
+    gap: 10rem;
+    justify-content: center;
+ }
+ .yours img{
+    width:27rem ;
+    border-radius: 4rem;
+ }
+ .yours p{
+    margin: 0.5rem 0 1rem;
+    font-family: cool;
+    font-size: 1.4rem;
+
+ }
+ .yours span{
+    font-weight: 600;
+    text-transform: uppercase;
+    color: var(--green);
+    font-family: cond;
+    font-size: 30px;
+ }
+ .linksss{
+    text-decoration: none;
+    color: var(--text-color);
+ }
+ .linksss:hover{
+   transform: scale(1.02);
+   color:var(--light-orange);
+   transition: 400ms;
+ }
+
+ img:hover , .login1:hover ,.git:hover ,.logo:hover{
+    transform: scale(1.1);
+    transition: 400ms;
+ }
+ img{
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+ }
+
+ 
+

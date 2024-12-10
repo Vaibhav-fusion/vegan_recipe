@@ -4,12 +4,13 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Flavor Fusion</title>
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="share_.css">
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
 </head>
 <body>
+    <div class="mega">
     <div class="container">
-        <h1><span class="highlight">Flavor Fusion</span>: Share Your Recipe</h1>
+        <h1><span class="highlight"><a href="" onclick="goback()" style="text-decoration: none; color: orange; font-size: 45px; font-family: bag;" >Veganero</a></span>: Share Your Recipe</h1>
         <p class="intro">Got a recipe that’s bursting with flavor? Share it with the world!</p>
         <h2 class="section-heading">Share Your Recipes</h2>
         <form class="recipe-form">
@@ -66,5 +67,18 @@
             <button type="submit"><i class="icon">✅</i> Submit Recipe</button>
         </form>
     </div>
+
+</div>
+
+<script>
+    function goBack() {
+        window.history.back();
+    }
+    </script>
+    
+
+
+
+
 </body>
 </html>

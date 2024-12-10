@@ -1,0 +1,188 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800;900&display=swap');
+
+@font-face {
+    font-family: "hell";
+    src: url(Helvetica.ttf);
+ }
+ @font-face {
+    font-family: "river";
+    src: url(Memphis River.otf) format("opentype");
+ }
+ @font-face {
+   font-family: "druk";
+   src: url(test_vegan-recipe/fonts/Druk_Collection/Druk Family/Druk-Medium-Trial.otf) format(("opentype"));
+ }
+ 
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&display=swap');
+
+@font-face {
+   font-family: cond;
+   src: url(CoolveticaCondensedRg-Regular\ 400.ttf);
+
+}
+@font-face {
+   font-family: cool;
+   src: url(CoolveticaRg-Regular\ 400.ttf);
+}
+@font-face {
+   font-family: bag;
+   src: url(Bagek\ -\ Demo\ Version\ Regular\ 400.otf);
+}
+
+
+:root{
+    --green:#3cb815;
+    --light-green:#557127;
+    --orange:#f75f1d;
+    --light-orange:#ff7e00;
+    --text-color:#1a2428;
+    --bg-color:#fff;
+ }
+*{
+    padding: 0rem;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: cool;
+    font-size: 19px;
+}
+body{
+    background: rgb(247,217,217);
+background: linear-gradient(90deg, rgba(247,217,217,1) 0%, rgba(255,180,11,0.7861738445378151) 49%, rgba(255,228,225,1) 100%);
+
+}
+
+.mega {
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+    padding: 2rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    color: #333;
+    margin: 5rem;
+    margin-top: 25rem;
+
+
+}
+
+.container {
+    background: #fff;
+    border-radius: 16px;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.15);
+    width: 90%;
+    max-width: 800px;
+    padding: 40px;
+    box-sizing: border-box;
+    text-align: center;
+    transition: transform 0.3s;
+}
+
+.container:hover {
+    transform: scale(1.01);
+}
+
+h1 {
+    color: var(--green);
+    font-size: 1.3em;
+    margin-bottom: 10px;
+}
+
+.highlight {
+    color: #ffa726;
+    font-weight: bold;
+    font-size: 2rem;
+    margin-right: 1rem;
+}
+
+.intro {
+    font-size: 1.2rem;
+    color: #666;
+    margin-bottom: 20px;
+
+}
+
+label {
+    font-size: 1.2rem;
+    color: #444;
+    margin-bottom: 10px;
+    display: block;
+}
+
+input[type="text"],
+textarea {
+    width: 100%;
+    padding: 15px;
+    margin: 10px 0;
+    border: 2px solid #ffd7b5;
+    border-radius: 8px;
+    font-size: 1rem;
+}
+
+textarea {
+    resize: none;
+}
+
+input[type="file"] {
+    margin-top: 10px;
+}
+
+button {
+    background-color: #ff6f61;
+    color: white;
+    padding: 15px;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    width: 100%;
+    font-size: 1.2rem;
+    transition: background-color 0.3s;
+}
+
+button:hover {
+    background-color: #e65d55;
+}
+
+.icon {
+    margin-right: 8px;
+}
+
+.form-group {
+    margin-bottom: 20px;
+    text-align: left;
+}
+
+.section-heading {
+    font-size: 2rem;
+    color: #333;
+    margin: 20px 0;
+    font-weight: 600;
+    text-align: center;
+}
+
+/*final footer*/
+.final{
+    background: black;
+    color: #fff;
+    display: flex;
+    justify-content:space-between;
+    align-self: center;
+    margin-top: 5rem;
+    padding: 4rem;
+
+
+}
+.final div a{
+    font-family: river;
+    font-size: 1.2rem;
+    cursor: pointer;
+}
+.Copyright{
+    background-color: black;
+    color:#fff;
+    display: flex;
+    justify-content: center;
+    padding: 3px;
+    padding-bottom: 10px;
+    font-size: 12px;
+}
